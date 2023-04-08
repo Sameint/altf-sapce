@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+body{
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 3px 6px #00000029;
+  justify-content: space-between;
+  display: flex;
+}
+#logo {
+  margin-left: 5%;
+  width: 100pt;
+  height: 70pt;
+  /* UI Properties */
+  display: flex;
+  font-size: 20px;
+}
+
+#number {
+  display: flex;
+  margin-right: 100px;
+  margin-top: 20px;
+  background: #fde4e5 0% 0% no-repeat padding-box;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+svg {
+  color: red;
+}
+.img-1{
+  position:sticky;
+  width: 100%;
+}
+.box-sha{
+  bottom: 80px;
+left: 1200px;
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  /* z-index: 1000; */
+  position: absolute;
+  border-radius: 15px;
+  text-align: center;
+}
+#hoe{
+  width: 350px;
+ height: 50px;
+}
+#text{
+  top: 350px;
+  left:80px;
+  width: 641px;
+  height: 77px;
+position: absolute;
+  text-align: left;
+  font: normal normal medium 55px/83px Poppins;
+  letter-spacing: 0px;
+  color: #FFF5F5;
+  font-size: 40px;
+}
+.box-sha>h1{
+text-align: center;
+font: normal normal normal 32px/48px Poppins;
+letter-spacing: 0.64px;
+color: #919191;
+opacity: 1;
+}
+input{
+  top: 478px;
+left: 1189px;
+width: 350px;
+height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  opacity: 0.14;
+}
+input::placeholder {
+  top: 503px;
+left: 1214px;
+width: 74px;
+height: 33px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 24px/35px Poppins;
+letter-spacing: 0.48px;
+color: #000000;
+text-transform: lowercase;
+opacity: 1;
+}
+.sec_1 {
+  height: 600px;
+  width: 100%;
+  background: #030303 0% 0% no-repeat padding-box;
+}
+.sec_1 > img {
+  width: 100%;
+  height: 600px;
+  opacity: 0.15;
+}
+.sec_2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f5f5;
+  height: 80px;
+}
+.sec_2 > h1 {
+  margin-left: 600px;
+  letter-spacing: 0.36px;
+  color: #5e5c5c;
+  opacity: 1;
+  padding-bottom: 40px;
+}
+
+#cen_1 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.sec_3 {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+ 
+  transition: 0.3s;
+  width: 350px;
+  height: 50px;
+}
+.container {
+  padding: 2px 16px;
+}
+.card > img {
+  border-radius: 25px;
+}
+h3 {
+  color: #919599;
+  opacity: 1;
+}
+.card.container,
+button {
+  top: 2225px;
+  left: 288px;
+  width: 130px;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  font: normal normal medium 21px/31px Poppins;
+  border: none;
+  border-radius: 10px;
+}
+#hint {
+ text-align: center;
+ margin-top: 100px;
+ padding-bottom: 80px;
+}
+.sec_4{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.card_ser{
+width: 250px;
+height: 300px;
+}
+.card_ser:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.sec_4 span{
+margin-left: 150px;
+font: normal normal medium 20px/30px Poppins;
+letter-spacing: 0px;
+color: #2B2E35;
+background-color: #e1d9d9;
+opacity: 1;
+border-radius: 5px;
+padding: 3px;
+
+}
+.card_ser, #h1-1{
+  text-align: left;
+font: normal normal medium 31px/47px Poppins;
+letter-spacing: 0px;
+color: #2B2E35;
+opacity: 1;
+
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.row_1{
+  display: flex;
+  justify-content: space-around;
+
+}
+.card_ser h4{
+  text-align: left;
+font: normal normal medium 24px/35px Poppins;
+letter-spacing: 0px;
+color: #919599;
+opacity: 1;
+}
+#get_start{
+  margin-top: 60px;
+  width: 300px;
+  height: 50px;
+  margin-left:670px;
+  margin-bottom: 40px;
+}
+.sec_5 {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.card_1 {
+  transition: 0.3s;
+  width: 350px;
+  height: 50px;
+ 
+}
+
+/* On mouse-over, add a deeper shadow */
+
+/* Add some padding inside the card container */
+.container_1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+.container_1>img{
+  border-top-right-radius: 25px ;
+  border-top-left-radius: 25px ;
+}
+
+.card_1>h1{
+ text-align: center;
+font: normal normal medium 43px/64px Poppins;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+
+}
+ul li {
+  /* Bullet color */
+  color: red;
+  list-style-type: disc;
+}
+ul li h1 {
+  /* Text color */
+  color: black;
+}
+footer{
+  margin-top: 50px;
+top: 4383px;
+  left: -170px;
+  width: 2260px;
+  height: 497px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.83;
+  display: flex;
+
+}
+footer>img{
+
+  margin-top: 150px;
+  width: 150px;
+  height:90px;
+}
+
+.company>h2{
+
+  margin-left:120px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 21px/30px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.93;
+  
+}
+.company>h3{
+ text-align: left;
+font: normal normal 300 15px/35px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-left:120px;
+
+}
+.company,#conte{
+color: #fff;
+margin-left:90px;
+margin-top:90px;
+}
+hr {
+  height: 2px;
+  background-color: #ff0000;
+  border: none;
+  width:100%;
+ margin-right: 80px;
+}
+#line{
+  background-color: #4c4a4a;
+  margin-top:400px;
+  margin-right: 500px;
+}
+#copy{
+  top:30px;
+  position: absolute;
+}
+a{
+margin-top: 300px;
+  color: #fff;
+  width:60px;
+font-size: 50p;
+position: relative;
+
+}
+
+@media screen {
+  body {
+    min-width: 480px
+  }
+}
